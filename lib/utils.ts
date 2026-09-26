@@ -2,3 +2,9 @@ export function calculateDiscount (price : number, discountPercentage: number) :
     if(price < 0 || discountPercentage < 0) return 0;
     return price - (price *(discountPercentage/100));
 }
+
+
+
+export function sum(a: number, b: number) : number {
+    return a + b;
+}
