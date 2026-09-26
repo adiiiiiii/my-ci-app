@@ -12,6 +12,8 @@ describe ('Counter componnet(Integration test)' , ( ) => {
 
         expect(countDisplay).toHaveTextContent('Count: 0');
         fireEvent.click(button);
+        fireEvent.click(button);
+        fireEvent.click(button);
         expect(countDisplay).toHaveTextContent('Count: 1')
     } )
 
